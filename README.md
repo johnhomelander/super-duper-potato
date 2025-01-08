@@ -1,6 +1,6 @@
-This is a calculator, we are developing for practice.
+This is a calculator, we are developing for practice. Okayy Okayy.
 
-#### devs
+### devs
 Pranav
 Ishaan 
 Khushi
