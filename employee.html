@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Form</title>
+</head>
+<body>
+    Name : <input type="text" id="name" required><br><br>
+    Age : <input type="number" id="age" required><br><br>
+    Gender : <br>
+    <input type="radio" id="g1" name="gender" value="M"> Male <br>
+    <input type="radio" id="g2" name="gender" value="F"> Female <br>
+    <br>
+
+    Car : <br>
+    <input type="checkbox" class="carCheck" value="Mercedes"> Mercedes <br>
+    <input type="checkbox" class="carCheck" value="Ferrari"> Ferrari <br>
+    <input type="checkbox" class="carCheck" value="BMW"> BMW <br>
+    <input type="checkbox" class="carCheck" value="Tuk-Tuk"> Tuk-Tuk <br>
+    <br>
+
+
+    Description : <br>
+    <textarea name="desc" id="desc" rows="4" cols="50"></textarea>
+    <br><br>
+    <input type="button" value="Submit" onclick="submitInfo()">
+    <br><br>
+    <span id="output"></span>
+    
+    <script src="js/employee.js"></script>
+
+</body>
+</html>
